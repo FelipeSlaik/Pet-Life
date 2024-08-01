@@ -17,6 +17,7 @@ header{
 }
 .logo{
     margin: 8px 0 0 20px;
+    display: flex;
 }
 
 .logo img{
@@ -39,4 +40,8 @@ header{
 
 ul a{
     color: #000;
+}
+
+ul a:hover{
+    color: #FFDC26;
 }

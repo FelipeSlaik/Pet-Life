@@ -1,10 +1,12 @@
 import "./Nav.css"
+import { GiBubbles } from "react-icons/gi";
 
-function Nav() {
+const Nav = () => {
     return (
         <header>
             <div className="logo">
-                <img src="./public/img/pet-life.png" alt="Logo da Pet Life" />
+                <img src="/img/pet-life.png" alt="Logo da Pet Life" />
+                <GiBubbles className="bubbles"/>
             </div>
             <nav className="nav-menu">
                 <ul>
