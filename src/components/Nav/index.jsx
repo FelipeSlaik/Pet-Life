@@ -12,7 +12,7 @@ const Nav = () => {
                 <ul>
                     <li><a href="#">Clínica Pet</a></li>
                     <li><a href="#">Pet Hotel</a></li>
-                    <li><a href="#">Tratamento Pet</a></li>
+                    <li><a href="#">Medicamentos</a></li>
                     <li><a href="#">Babá de Pet</a></li>
                     <li><a href="#">Treino Pet</a></li>
                 </ul>
