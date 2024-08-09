@@ -6,7 +6,6 @@ const Nav = () => {
         <header>
             <div className="logo">
                 <img src="/img/pet-life.png" alt="Logo da Pet Life" />
-                <GiBubbles className="bubbles"/>
             </div>
             <nav className="nav-menu">
                 <ul>
