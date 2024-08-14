@@ -1,8 +1,8 @@
-import './FoodArea.css'
+import './Food.css'
 import { MdOutlinePets } from "react-icons/md";
 import { GiCat } from "react-icons/gi";
 
-const FoodArea = () => {
+const Food = () => {
     return (
         <section className='food-container'>
             <div className='text-container'>
@@ -34,4 +34,4 @@ const FoodArea = () => {
     )
 }
 
-export default FoodArea;
+export default Food;
