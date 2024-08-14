@@ -1,6 +1,7 @@
 import './FoodArea.css'
 import { MdOutlinePets } from "react-icons/md";
 import { GiCat } from "react-icons/gi";
+
 const FoodArea = () => {
     return (
         <section className='food-container'>
@@ -33,4 +34,4 @@ const FoodArea = () => {
     )
 }
 
-export default FoodArea
+export default FoodArea;
