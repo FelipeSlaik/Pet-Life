@@ -1,0 +1,71 @@
+.offers-container{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+
+.offers-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+}
+
+.offers-text h1{
+    color: #272727;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.offers-text h3{
+    color: #FFDC26;
+}
+
+.offers-text p{
+    color: #949090;
+}
+
+.email-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width:50%;
+    gap:5px;
+    box-shadow: 1px 10px 10px 10px #e9e6e699;
+    border-radius: 6px;
+    
+}
+
+.email-container input{
+    width: 68%;
+    height: 40px;
+    border: none;
+    padding: 10px;
+    background-color: #fff; 
+    outline: none;
+    font-size: 16px;
+}
+
+.btn-submit{
+    width: 30%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: radial-gradient(#E0AF00, #FFDC26);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-submit:hover{
+    cursor: pointer ;  
+    background: radial-gradient(#FFDC26, #E0AF00);
+}
